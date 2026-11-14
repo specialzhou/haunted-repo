@@ -1,0 +1,6 @@
+{
+  "name": "Run tests on save",
+  "version": "1",
+  "when": { "type": "fileEdited", "patterns": ["src/**/*.ts"] },
+  "then": { "type": "askAgent", "prompt": "Run the test suite and fix any failures caused by the edit." }
+}

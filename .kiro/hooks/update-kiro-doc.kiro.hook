@@ -1,0 +1,6 @@
+{
+  "name": "Keep Kiro usage doc current",
+  "version": "1",
+  "when": { "type": "fileCreated", "patterns": [".kiro/specs/**", ".kiro/hooks/**", ".kiro/steering/**"] },
+  "then": { "type": "askAgent", "prompt": "Update docs/how-we-used-kiro.md with what was just added and why." }
+}
