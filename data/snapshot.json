@@ -1,0 +1,14 @@
+{
+  "_note": "PLACEHOLDER sample data (synthetic, not a real repository). Replace with a real public repo snapshot once network access is available.",
+  "repo": "example/placeholder",
+  "issues": [
+    {"number": 1, "title": "Crash on empty input", "labels": ["bug"], "created_at": "2022-03-01T00:00:00Z", "html_url": "https://example.invalid/1"},
+    {"number": 2, "title": "Add dark mode", "labels": ["enhancement"], "created_at": "2023-01-10T00:00:00Z", "html_url": "https://example.invalid/2"},
+    {"number": 3, "title": "Docs typo", "labels": ["documentation", "good first issue"], "created_at": "2026-10-20T00:00:00Z", "html_url": "https://example.invalid/3"},
+    {"number": 4, "title": "Slow startup", "labels": ["bug", "help wanted"], "created_at": "2024-06-15T00:00:00Z", "html_url": "https://example.invalid/4"},
+    {"number": 5, "title": "Support Windows paths", "labels": ["enhancement"], "created_at": "2025-02-02T00:00:00Z", "html_url": "https://example.invalid/5"},
+    {"number": 6, "title": "Question about config", "labels": ["question"], "created_at": "2026-09-01T00:00:00Z", "html_url": "https://example.invalid/6"},
+    {"number": 7, "title": "Memory leak in watcher", "labels": ["bug"], "created_at": "2021-11-11T00:00:00Z", "html_url": "https://example.invalid/7"},
+    {"number": 8, "title": "Improve error messages", "labels": ["enhancement", "good first issue"], "created_at": "2026-07-04T00:00:00Z", "html_url": "https://example.invalid/8"}
+  ]
+}

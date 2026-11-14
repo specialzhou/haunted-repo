@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haunted Repo</title>
+<link rel="stylesheet" href="./theme.css">
+</head>
+<body>
+<header>
+  <h1>Haunted Repo</h1>
+  <input id="repo" placeholder="owner/repo" aria-label="Repository">
+  <button id="go" class="primary">Summon</button>
+  <button id="friendly" type="button">Friendly ghosts</button>
+  <span id="repo-name"></span>
+</header>
+<main>
+  <svg id="house" width="100%" height="420" role="img" aria-label="Haunted house of open issues">
+    <defs><filter id="blur"><feGaussianBlur stdDeviation="6"/></filter></defs>
+  </svg>
+  <aside id="panel">Click a monster to see its issue.</aside>
+</main>
+<script src="./main.js"></script>
+</body>
+</html>
